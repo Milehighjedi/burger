@@ -13,13 +13,13 @@
     <h2>Not Eaten...Yet</h2>
     {{#each burger}} 
         {{#unless is_eaten}} 
-            <ul>{{id}}. {{name}} <button class="devour-button" data-id="{{id}}">Devour It!</button></ul>
+            <ul>{{id}}. {{name}} <button class="devour-button" data-id="{{id}}">Oh Man!!!!</button></ul>
         {{/unless}} 
      {{/each}}
 </div>
 
 <div id="eaten-container">
-<h2>Taken care of</h2>
+<h2>Taken Care Of</h2>
     {{#each burger}} 
         {{#if is_eaten}}
             <ul>{{id}}. {{name}}</ul> 

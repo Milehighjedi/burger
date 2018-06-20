@@ -20,7 +20,6 @@ $(function () {
         }).then(
             function () {
                 console.log("Item devoured!");
-                // Reload the page to get the updated list
                 location.reload();
             }
         );
