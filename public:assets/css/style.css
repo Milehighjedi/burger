@@ -1,0 +1,59 @@
+body {
+    background-color:#edd497;
+}
+
+h1{
+    margin:auto;
+    text-align: center;
+    font-size:52px;
+    font-weight: bold;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 5px;
+}
+
+#img-container {
+    margin: 10px auto 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#input-area {
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+
+#not-eaten-container {
+    width: 45%;
+    padding: 10px;
+    float: left;
+}
+
+#eaten-container {
+    width: 45%;
+    padding: 10px;
+    float: left;
+}
+
+#burger-text {
+    margin: auto;
+    height: 50px;
+    width: 50%;
+    background-color:white;
+    border: 1px solid black;
+}
+
+#submit-button {
+    color:white;
+    background-color:#113399;
+    font-size: 15px;
+    height: 20px;
+    cursor: pointer;
+}

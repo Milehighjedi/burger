@@ -1,0 +1,28 @@
+<div id="img-container"><img id="burg-img" src='../assets/images/burger.png'></div>
+<h1>Get It!</h1>
+
+<br>
+
+<div id="input-area">
+    <input id="burger-text">
+    <button id="submit-button">Submit</button>
+    <div>Enter your Dream Burger, then click "Submit" </div>
+</div>
+
+<div id="not-eaten-container">
+    <h2>Not Eaten...Yet</h2>
+    {{#each burger}} 
+        {{#unless is_eaten}} 
+            <ul>{{id}}. {{name}} <button class="devour-button" data-id="{{id}}">Devour It!</button></ul>
+        {{/unless}} 
+     {{/each}}
+</div>
+
+<div id="eaten-container">
+<h2>Taken care of</h2>
+    {{#each burger}} 
+        {{#if is_eaten}}
+            <ul>{{id}}. {{name}}</ul> 
+        {{/if}} 
+    {{/each}}
+</div>
